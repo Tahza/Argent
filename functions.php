@@ -45,7 +45,7 @@ add_theme_support( 'custom-logo', array (
 ));
 
 // -- MENU 
-function register_my_menu() {
+/* function register_my_menu() {
   register_nav_menu('header-menu',__( 'Header Menu' ));
 }
 add_action( 'init', 'register_my_menu' );
@@ -55,8 +55,8 @@ add_action( 'init', 'register_my_menu' );
 $args = array (
     'width' => 1600,
     'height' => 359,
-    'default-image' => get_template_directory_uri() . 
-    '/assets/img/bandeau-saint-marc.jpg',
+    //'default-image' => get_template_directory_uri() . 
+    //'/assets/img/bandeau-saint-marc.jpg',
     'uploads' => true
 );
 
@@ -70,12 +70,12 @@ register_default_headers( array(
     ),
     'BandeauCsm' => array (
         'url' => '%s/assets/img/bandeau-saint-marc.jpg',
-        'thumbnail_url' => '%s/assets/img/bandeau-saint-marc.jpg',
+        'thumbnail_url' => '%s/assets/img/bandeau.jpg',
         'description' => __('Proposition 2', 'csm')
     ),
 ));
 
-add_theme_support('custom-background');
+add_theme_support('custom-background'); */
 
 // -- Post Type
 
