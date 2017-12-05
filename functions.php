@@ -77,7 +77,7 @@ register_default_headers( array(
 
 add_theme_support('custom-background'); */
 
-// -- Post Type
+// --- Post Type
 
 add_action('init', 'create_post_type');
 add_theme_support( 'post-thumbnails' );
